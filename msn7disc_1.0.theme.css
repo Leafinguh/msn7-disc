@@ -1,0 +1,1576 @@
+:root {
+  /* general */
+  --text-primary: #000;
+  --accent-color: #0042a5;
+  --accent-color-selected: #317df7;
+  --background-color: #5a7edc;
+  --background-modifier-selected: transparent;
+
+
+    /* tooltip */
+  --tooltip-background: #ffffe1;
+  --tooltip-border: #000;
+  --menu-border: #aca899;
+
+
+  /* profile */
+  --profile-background: #768eca;
+  --profile-font-color: rgb(255, 255, 255);
+  --profile-border: whitesmoke;
+  --avatar-profile-border-color: black;
+
+  /* fonts */
+  --font-header: "Trebuchet MS";
+  --font-body: "Tahoma";
+  --font-small: "Pixelated MS Sans Serif",Arial; /* options: Windows / W95FA / Pixelated MS Sans Serif */
+  
+  --font-primary: "Tahoma", bold;
+  --font-headline: var(--font-body);  
+  --font-code: "Perfect DOS VGA 437 Win";
+
+  --font-display: var(--font-primary);
+
+  --explorer-background: linear-gradient(120deg, rgba(255,255,255,1) 0%, rgba(240,231,202,1) 100%); 
+  --explorer-box-shadow: inset 1px 1px 0px 0px rgba(245,243,238,1), inset -1px -1px 0px 0px #d1cebe;
+
+  /* mentioned */
+  /* --mention-foreground: rgb(75, 210, 0); */
+  /* --mention-background: rgba(0, 255, 0, 0.2); */
+  --background-mentioned: linear-gradient(to right, rgb(182, 244, 146), rgba(51, 139, 147, 0));
+
+  /* settings */
+  --light-settings-background: #E6EAD8;
+  --light-settings-sidebar-background: linear-gradient(0deg, rgba(98,119,215,1) 0%, rgba(130,162,211,1) 100%);
+  --dark-settings-background: linear-gradient(0deg, rgba(96,119,218,1) 0%, rgba(108,122,198,1) 100%); ;
+  --dark-settings-sidebar-background: linear-gradient(0deg, rgba(98,119,215,1) 0%, rgba(130,162,211,1) 100%);
+  --background-modifier-hover: #d2dbfc;
+  --light-channel-background:linear-gradient(to top, #5868a8, #5868a8, #5868a8, #5868a8, #ffffff);
+
+
+	
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+}
+
+foreignObject[mask*="url(#"] {
+    mask: none;
+}
+
+svg[class="mask_d5067d svg_a6bf1c"] foreignObject[mask*="url(#"] {
+	border-radius:6px;
+	border:1px solid;	
+	border-color:rgb(78, 107, 160);
+}
+.avatar-2e8lTP{
+    border-radius: 0;
+}
+.wrapper_edb6e0 {
+    /* position: relative; */
+    border-radius: 50%;	
+}
+.avatar__7bd22 {
+
+}
+
+.avatar__08316:not(.compact__54ecc) {
+
+	border-radius: 6px !important;
+	border:1px solid !important;
+	border-color:rgb(78, 107, 160) !important;
+}
+	
+
+/* context menu */
+
+.submenu_aed9ee {
+    top: 20px;
+	left: -15px;
+    position: relative;
+}
+.label__563c3 {
+    flex: 1 1 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 19px;
+	font-size:90%;
+}
+.layer__6b5c3 {
+}
+.labelContainer__4f869 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+		min-height: 1px;
+width:calc(100% - 8px);
+    padding: 0;
+}
+.scroller__8f066 {
+    padding: 0px 0px 0px 0px !important;
+	left:4px;
+	overflow:visible !important;
+}
+.separator__174fc {
+	padding-bottom:2px;
+width:calc(100% - 8px) !important;
+}
+
+.menu__088f7 {
+    z-index: 1;
+    box-sizing: border-box;
+    display: flex;
+    height: auto;
+	overflow:visible;
+    cursor: default;
+    max-height: calc(2200vh);
+    box-shadow: 2px 2px 2px #888888;
+    background: var(--background-floating);
+    border-radius: 0px;
+	border: 1px solid rgb(172, 168, 153);
+	
+}
+div[role="group"] {
+	padding-left:0px;
+}
+div [role="separator"] {
+    box-sizing: border-box;
+    margin: 0px 0 0 0;
+	width: calc(100% + 44px);
+	position:relative;
+	border-bottom: 1px solid rgb(172, 168, 153);
+}
+.icon__0bfbf {
+    width: 18px;
+    height: 18px;
+    opacity: 0;
+}
+.show-redesigned-icons .caret_ce50ce {
+    width: 16px;
+    height: 16px;
+	background:url(https://leafinguh.github.io/msn7-disc/final/button/contextmenuarrow.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.show-redesigned-icons .caret_ce50ce path {
+	d: path("");
+opacity:1;
+}
+.button_bfb8e1 {
+	left:-10px;
+	position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    padding: 0px;
+    flex: 0 0 auto;
+    cursor: pointer;
+    border-radius: 0%;
+	border: 1px solid rgb(172, 168, 153);
+    background-color: white;
+}
+.button_bfb8e1 .icon_a88807 {
+    width: 16px;
+    height: 16px;
+}
+
+/* -=-=- WINDOWS TITLEBAR -=-=- */
+.typeWindows_e41dab {
+  background: url(https://leafinguh.github.io/msn7-disc/final/titleandborder/msnsmall.png),
+			  url(https://leafinguh.github.io/msn7-disc/final/titleandborder/windowtitle-left.png),
+			  url(https://leafinguh.github.io/msn7-disc/final/titleandborder/windowtitle-right.png),
+			  url(https://leafinguh.github.io/msn7-disc/final/titleandborder/windowtitle-middle.png);
+			  
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat-x;
+  background-size: 50px 21px, 8px 100%, 8px 100%, 1px 100%;
+  background-position: bottom 2px left 8px, bottom left, bottom right, bottom center;
+  height:25px;
+  position:relative;
+  padding:0px;
+  margin:0px;
+}
+
+/* BORDERS AHHHHHHHHH */
+.appAsidePanelWrapper__5e6e2 {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    min-height: 0;
+	position:relative;
+    padding: 0px 3px 3px 3px;
+	background:
+	url(https://leafinguh.github.io/msn7-disc/final/titleandborder/bottomleftborder.png),
+	url(https://leafinguh.github.io/msn7-disc/final/titleandborder/bottomrightborder.png),
+	url(https://leafinguh.github.io/msn7-disc/final/titleandborder/bottomborder.png),
+	url(https://leafinguh.github.io/msn7-disc/final/titleandborder/leftborder.png),
+	url(https://leafinguh.github.io/msn7-disc/final/titleandborder/rightborder.png);
+	background-repeat: no-repeat, no-repeat, repeat-x, repeat-y, repeat-y;
+	background-position: bottom left, bottom right, bottom, left, right;
+	background-color: rgba(0,255,0,1);
+}
+
+.bg__12180 {
+  background-color: transparent;
+}
+
+/* Discord wordmark */
+.wordmark__5b8c9 {
+  color: transparent;
+}
+
+/* window button sizes */
+.winButton_f17fb6 {
+  width: 19px;
+  height: 20px;
+  top:0px;
+  position:relative;
+  margin-top: 5px;
+}
+
+/* Close, maximize, and minimize button */
+.winButtonClose__6396d {
+content: url(https://leafinguh.github.io/msn7-disc/final/titleandborder/windowtitle-close.png);
+  width: 11px;
+  height: 13px;
+  margin-right:6px;
+}
+.winButtonClose__6396d:hover {
+content: url(https://leafinguh.github.io/msn7-disc/final/titleandborder/windowtitle-close.png);
+  width: 11px;
+  height: 13px;
+}
+.winButtonMinMax_caf9c8 {
+content: url(https://leafinguh.github.io/msn7-disc/final/titleandborder/windowtitle-maximize.png);
+  width: 12px;
+  height: 13px;
+  margin-right:2px;
+}
+.winButtonMinMax_caf9c8:hover {
+content: url(https://leafinguh.github.io/msn7-disc/final/titleandborder/windowtitle-maximize.png);
+  background: transparent;
+  width: 12px;
+  height: 13px;
+}
+.winButtonMinMax_caf9c8:nth-child(4) {
+content: url(https://leafinguh.github.io/msn7-disc/final/titleandborder/windowtitle-minimize.png);
+  width: 10px;
+  height: 13px;
+}
+.winButtonMinMax_caf9c8:nth-child(4):hover {
+content: url(https://leafinguh.github.io/msn7-disc/final/titleandborder/windowtitle-minimize.png);
+  width: 10px;
+  height: 13px;
+}
+
+/* SERVER SIDEBAR */
+.guilds__2b93a {
+background-image:url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-left.png);
+background-repeat:repeat-y;
+background-color:rgba(236, 240, 245, 1);
+background-position:right;
+width:36px;
+}	
+
+/* icon */
+.svg__34dd4 {
+    contain: paint;
+    box-sizing: border-box;
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    width: 24px;
+    height: 24px;
+	padding: -0px 0px 0px 0px;	
+}
+
+/* server icon container */
+.childWrapper_a6ce15 {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color.15s ease-out,color.15s ease-out;
+    background-color: transparent;
+    color: var(--text-normal);
+}
+
+.acronym_fb7739 {
+    font-weight: 1;
+	font-size:24px;
+    line-height: 8px;
+    white-space: nowrap;
+	background-color:transparent;
+}
+
+.wrapper__9916c {
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    position: relative;
+    width: 35px;
+    height: 61px;
+    cursor: pointer;
+}
+
+/*notif icon thingy*/
+.numberBadge__40d6f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	background-color:orange !important;
+	border:1px solid orange;
+	font-family: Tahoma, "Trebuchet MS", sans-serif;
+	font-size:11px;
+}
+
+/* stupid fucking discord bar thing */
+  .listItemWrapper__3d465 {
+  mask: none;
+    background: url(https://leafinguh.github.io/msn7-disc/final/serversidebar/server-unselected.png);
+	background-position:left;
+	width:35px;
+	margin-top:4px;
+	margin-bottom:4px;
+
+}
+.listItemWrapper__3d465.selected__501f5 {
+  mask: none;
+    background: url(https://leafinguh.github.io/msn7-disc/final/serversidebar/server-selected.png);
+		margin-top:4px;
+	margin-bottom:4px;
+}
+
+ /* server thing */
+.blobContainer_c44493 {
+    background: url(https://leafinguh.github.io/msn7-disc/final/serversidebar/server-unselected.png);
+	background-position:left;
+	width:35px;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+.blobContainer_c44493.selected_e85eba {
+    background: url(https://leafinguh.github.io/msn7-disc/final/serversidebar/server-selected.png);
+		margin-top:4px;
+	margin-bottom:4px;
+}
+
+/* base server icon */
+.listItem__48528 {
+	--custom-list-items-list-item-width: 35px;	
+	z-index: calc(var(--reverse) * var(--index));
+    position: relative;
+    margin: 0px -2px -0px;
+    display: flex;
+    justify-content: center;
+    width: var(--custom-list-items-list-item-width);
+	left:3px;
+}
+.lowerBadge_e89e22 {
+    pointer-events: none;
+    position: absolute;
+    bottom: 24px;
+    right: 2px;
+    z-index: 2;
+}
+
+/* server folder stuff */
+foreignObject[mask="url(#38d93441-c270-4e3f-9102-c0c0b46d28cc)"] {
+}
+.wrapper__0a9af {
+    position: relative;
+    left: 16px;
+    width: var(--custom-list-items-list-item-width);
+}
+.expandedFolderBackground_b1385f.collapsed__98ad5 {
+	position: absolute;	
+    top: -28px;
+    left: -0px;
+    bottom: 0px;
+    width: 50%;
+	height: 34px;
+	margin: auto;
+	color:green;
+	background-image:
+
+					url(https://leafinguh.github.io/msn7-disc/final/serversidebar/folderend.png),
+					url(https://leafinguh.github.io/msn7-disc/final/serversidebar/foldermiddle.png),
+					url(https://leafinguh.github.io/msn7-disc/final/serversidebar/foldertop.png);
+					/* url(httpds://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-left.png); */
+	background-position: bottom, bottom, top;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-size: auto, 35px 28px, auto;
+	border-radius:0px;
+
+}
+.expandedFolderBackground_b1385f {
+	position: absolute;	
+	width: 50%;
+	left: -0px;
+	height: calc(100% - 16px);
+    background-image:
+					url(https://leafinguh.github.io/msn7-disc/final/serversidebar/folderend.png),
+					url(https://leafinguh.github.io/msn7-disc/final/serversidebar/foldertop.png),
+					url(https://leafinguh.github.io/msn7-disc/final/serversidebar/foldermiddle.png);
+					/* url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-left.png); */
+	background-position: bottom, top, bottom, right;
+	background-repeat: no-repeat, no-repeat, no-repeat, repeat-y;
+	background-size: auto, auto, 35px calc(100% - 8px),  4px 1px;
+	border-radius:0px;
+
+}
+.closedFolderIconWrapper__722d5 {
+padding:0px;
+}
+
+.folder__17546{
+background-color:rgba(255,0,0,0);
+mask:none;
+}
+.folderIconWrapper__11165{
+background-color:rgba(255,0,0,0) !important;
+mask:none;
+border-radius:0px;
+}
+.closedFolderIconWrapper__722d5 .guildIcon_b6bfa7{
+border-radius:0px;
+height:24px;
+width:24px;
+}
+[class^="folderEndWrapper"] {
+
+}	
+
+[id^="folder-items-"] {
+height:auto !important;
+
+}
+
+[id^="folder-items-"] .listItem__48528 {
+height:auto !important;
+filter: hue-rotate(195deg) saturate(500%);
+left:3px;
+top:-32px;
+}
+
+[id^="folder-items-"] .listItem__48528 .pill__6b31b {
+filter: hue-rotate(-180deg) saturate(100%);
+}
+
+[id^="folder-items-"] div div .wrapper__9916c {
+filter: hue-rotate(-200deg) saturate(20%);
+}
+
+.guildSeparator__75928{
+height:6px;
+position:relative;
+left:-3px;
+width:27px;
+margin-top:2px;
+margin-bottom:2px;
+background: url(https://leafinguh.github.io/msn7-disc/final/serversidebar/grip.png);
+background-position: left;
+opacity:1;
+}
+
+.unreadMentionsIndicatorTop__153ad, .unreadMentionsIndicatorBottom__9351c {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    overflow: hidden;
+    padding: 8px;
+    height: 40px;
+    pointer-events: none;
+    width: 50px;
+    box-sizing: border-box;
+}
+
+[class^="unreadMentionsIndicator"] .bar_edc096 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 11px;
+    line-height: 8px;
+	font-family: Tahoma, "Trebuchet MS", sans-serif;
+    font-weight: 1;
+    color: black;
+	background-color: rgb(255,255,225);
+    height: 16px;
+	left:-8px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 6px;
+	border: 1px solid rgb(0,0,0);
+    pointer-events: auto;
+    box-shadow: 0 0px 0px hsl(var(--black-500-hsl)/.24);
+    -webkit-app-region: no-drag;
+	opacity:1;
+}
+
+.unreadMentionsIndicatorTop__153ad{
+    padding-top:0px;
+}
+.unreadMentionsIndicatorBottom__9351c{
+    bottom: -14px;
+}
+
+/* pill remover  */	
+  .item_f9d377 {
+
+  }
+ 
+ .pill__6b31b{
+
+ }
+
+/* shared between both sidebars*/
+.sidebar_e031be {
+	--background-secondary: rgba(255,255,255,1);
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    width: 240px;
+    flex: 0 0 auto;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* custom top bar bullshit */
+
+.upperContainer__57565 {
+height: 21px !important;
+max-height: 21px !important;
+position:relative;
+top:0px;
+justify-content:right;
+}
+
+.heading-md-semibold__76ba1 {
+    font-family: var(--font-display);
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+
+.children_cde9af:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0px;
+    height: 100%;
+}
+.children_cde9af {
+	height:21px;
+    position: absolute;
+    flex: 1 1 auto;
+    display: flex;
+    flex-basis: 0;
+    align-items: flex-start;
+    min-width: 100%;
+    overflow: hidden;
+}
+
+a.anchor_c8ddc0.anchorUnderlineOnHover__03b72, .tooltip__225b9{
+	font-size:11px;
+}
+.akaBadge__27cd4 {
+    top:2px;
+	position:relative;
+	background-color:transparent;
+}
+
+.children_cde9af .iconWrapper_de6cd1{
+content:url(https://leafinguh.github.io/msn7-disc/final/othersidebar/textchannel.png);
+height:15px;
+width:16px;
+top:3px;
+}
+
+.titleWrapper_d6133e {
+    margin: 0 8px 0 0;
+    flex: 0 0 auto;
+    min-width: auto;
+	top:3px;
+	position:relative;
+}
+.channelName__96470 {
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    position: relative;
+    padding: 0 4px 0 0;
+    min-width: 0;
+    max-width: 100%;
+    margin-left: -6px;
+	font-size:11px;
+	max-height:21px;
+}
+.channelName__96470 div, .channelName__96470 input {
+    font-family: var(--font-display);
+    font-weight: 600;
+	font-size:12px;
+	max-height:21px;
+	top:-6px;
+}
+.avatar__7c789 {
+	height:21px !important;
+}
+.avatar__7c789 svg.mask_d5067d.svg_a6bf1c {
+	height:100%;
+	top:2px;
+}
+
+.title_d4ba1a[aria-label="Channel header"] {
+	height: 21px !important;
+	min-height: 21px;
+
+	background:
+	url(https://leafinguh.github.io/msn7-disc/final/topbar/DMmainbarmiddle.png),
+	url(https://leafinguh.github.io/msn7-disc/final/topbar/DMmainbarright.png);
+	background-repeat:repeat-x,repeat-x;
+	background-color:rgba(255,0,255,0);
+	background-size:auto,auto;
+	background-position:top left,top left;
+}
+
+.title_d4ba1a[aria-label="Channel header"] .upperContainer__57565 .toolbar__62fb5 {	
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    min-width: 0;
+	position:relative;
+	padding:32px;
+	margin:0 -32px;
+	min-height:58px;
+		background:
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/DMbarsearchmiddle.png),
+	url(https://leafinguh.github.io/msn7-disc/final/topbar/dmbarsearchright-mirrored.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/searchbarbgrepeat.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/searchbarbg.png);
+	background-repeat:no-repeat,no-repeat;
+	background-color:rgba(255,0,255,0);
+	background-size: 100% 58px,57px auto, 300px 26px, 35px 26px;
+	background-position:top right -217px, top left 160px, top 21px left 35px, top 21px left -0px;	
+}
+
+/* friends menu */
+.section__253ec {
+	border: 1px solid rgb(172, 168, 153);
+}
+
+.container__26baa.themed_b152d4[role="navigation"] {
+	height: 21px !important;
+	min-height: 21px;
+	left:-32px;
+	background:
+	url(https://leafinguh.github.io/msn7-disc/final/topbar/DMmainbarright.png),
+	url(https://leafinguh.github.io/msn7-disc/final/topbar/DMmainbarmiddle.png);
+	background-repeat:no-repeat,repeat-x;
+	background-color:rgba(255,0,255,0);
+	background-size:auto,auto;
+	background-position:top left,top left;
+}
+
+.container__26baa.themed_b152d4[role="navigation"] .upperContainer__57565 .toolbar__62fb5 {	
+   flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    min-width: 0;
+	position:relative;
+	padding:32px;
+	margin:0 -32px;
+	left:32px;
+	min-height:58px;
+		background:
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/DMbarsearchmiddle.png),
+	url(https://leafinguh.github.io/msn7-disc/final/topbar/dmbarsearchright-mirrored.png);
+	background-repeat:no-repeat,no-repeat;
+	background-color:rgba(255,0,255,0);
+	background-size: 100% 58px,57px auto, 300px 26px, 35px 26px;
+	background-position:top right -47px, top left -10px, top 21px left 35px, top 21px left -0px;	
+}
+
+.item_e4ca95.item__48dda.themed_b957e8 {
+	border-image: url(https://leafinguh.github.io/msn7-disc/final/button/unselect.png);
+    border-image-slice: 9 fill;
+    border-image-width: 5px;
+	height:16px;
+	font-size:14px;
+}
+.item_e4ca95.item__48dda.selected_a523ff.themed_b957e8 {
+	border-image: url(https://leafinguh.github.io/msn7-disc/final/button/select.png);
+    border-image-slice: 9 fill;
+    border-image-width: 5px;
+		height:16px;
+			font-size:14px;	
+}
+
+.item_e4ca95.addFriend__4c0a2.item__48dda.themed_b957e8 {
+    background-color: var(--status-positive-background);
+    color: green;
+}
+
+.search__07df0 {
+    margin: 0 8px;
+    flex-basis: 100%;
+	order:-1;
+	left:-10px;
+	top:1px;
+	position:relative;
+}
+.open_d3ab4e .searchBar__5a20a, .focused__037a4 .searchBar__5a20a {
+    width: 144px;
+}
+
+.iconWrapper_de6cd1 {
+    position: relative;
+    height: 58px;
+    width: auto;
+	top:-4px;
+	flex: 0 0 0;
+	padding: 0 0px;
+}
+
+.iconWrapper_de6cd1[aria-label="Help"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/help.png);
+}
+.iconWrapper_de6cd1[aria-label="Inbox"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/inbox.png);
+}
+.iconWrapper_de6cd1[aria-label="Show User Profile (Unavailable)"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/profile.png);
+}
+.iconWrapper_de6cd1[aria-label="Show User Profile"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/profile.png);
+}
+.iconWrapper_de6cd1[aria-label="Hide User Profile"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/profile.png);
+}
+.iconWrapper_de6cd1[aria-label="Add Friends to DM"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/invite.png);
+}
+.iconWrapper_de6cd1[aria-label="Pinned Messages"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/pinned.png);
+}
+.iconWrapper_de6cd1[aria-label="Start Video Call"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/video.png);
+}
+.iconWrapper_de6cd1[aria-label="Start Voice Call"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/voice.png);
+}
+.iconWrapper_de6cd1[aria-label="New Group DM"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/newgroupdm.png);
+}
+.iconWrapper_de6cd1[aria-label="Show Member List"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/members.png);
+}
+.iconWrapper_de6cd1[aria-label="Hide Member List"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/members.png);
+}
+.iconWrapper_de6cd1[aria-label="Notification Settings"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/notif.png);
+}
+.iconWrapper_de6cd1[aria-label="Threads"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/topbar/threads.png);
+}
+.divider_bdb894 {
+    width: 0px;
+    height: 24px;
+    margin: 0 0px;
+    flex: 0 0 auto;
+    background: var(--background-modifier-accent);
+}
+
+/* server sidebar */
+.container_f41675 {
+	    height: 58px;
+			background:
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/DMbarsearchleft.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/DMbarsearchmiddle.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/dmbarsearchright.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-right.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, repeat-y;
+	background-size: auto, 185px 58px, auto, auto;
+	background-position: left, left, right, right;
+}
+
+.headerContent__6fcc7.primaryInfo__8d587 {
+    top: 4px;
+    position: relative;
+    width: 85%;
+}
+.text-md-semibold__8664f {
+    font-family: var(--font-primary);
+    font-size: 12px;
+    line-height: 1.25;
+    font-weight: 600;
+    justify-content: center;
+}
+
+header.header__77c95
+ {
+	height:58px;
+		border: none;
+		box-shadow:none;
+}
+
+/* dm sidebar */
+.searchBar__621ec {
+    position: relative;
+    z-index: 2;
+    flex: 0 0 auto;
+    padding: 0 10px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+	border: none;
+	left:-0px;
+    box-shadow: none;
+		background:
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/DMbarsearchleft.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/DMbarsearchmiddle.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/dmbarsearchright.png);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-size: auto, 185px 58px, auto;
+	background-position: left, left, right;
+}
+
+.searchBar__621ec .searchBarComponent__8f95f {
+    width: 85%;
+    height: 18px;
+    overflow: hidden;
+    border-radius: 0px;
+    background-color: rgba(255,255,255,1);
+	border:1px solid;
+	border-color: rgba(127,157,185,1);
+    box-shadow: none;
+    color: var(--text-muted);
+    text-align: left;
+    text-overflow: ellipsis;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 11px;
+    white-space: nowrap;
+	top:0px;
+	left:5px
+	position:relative;
+}
+
+.searchBar__5a20a {
+    box-sizing: border-box;
+    display: flex;
+    align-items: stretch;
+    height: 18px;
+    width: 144px;
+    border-radius: 0px;
+    box-shadow: none;
+    cursor: text;
+    overflow: hidden;
+    padding: 0 2px;
+    color: var(--text-normal);
+    background: var(--bg-overlay-3,var(--background-tertiary));
+}
+
+.search_ac353c .DraftEditor-root {
+    flex: 1;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 11px;
+    overflow: hidden;
+    padding: 2px 0;
+	    background-color: rgba(255,255,255,1);
+}
+
+.searchBar__5a20a .icon__53a5c {
+    width: 16px;
+	    background-color: rgba(255,255,255,1);
+    height: 16px;
+	content:url(https://leafinguh.github.io/msn7-disc/raw/topbar/search.png);
+}
+
+.full-motion .searchBar__5a20a {
+	border:1px solid;
+	border-color: rgba(127,157,185,1);
+	background-color: white;
+}
+
+.search_ac353c .DraftEditor-root .public-DraftEditorPlaceholder-root, .search_ac353c .DraftEditor-root .public-DraftEditor-content {
+padding-top:2px;	
+}
+
+.privateChannels__9b518 {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+	background: url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-right.png);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+.scroller__89969.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0 {
+	background: url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-right.png);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+section.panels__58331 {
+	background:
+	url(https://leafinguh.github.io/msn7-disc/final/othersidebar/profileleft.png),
+	url(https://leafinguh.github.io/msn7-disc/final/othersidebar/profileright.png),
+	url(https://leafinguh.github.io/msn7-disc/final/othersidebar/profilemid.png),
+		url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-right.png);;
+	background-repeat: repeat-y, repeat-y, repeat-y, repeat-y;
+	background-position: top left, top right, top, right;
+	background-size: 7px 53px, 7px 53px, 227px 53px, auto;
+}
+
+.container_e1958d {
+    color: var(--header-primary);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--background-modifier-accent);
+    background: transparent; 
+}
+.theme-light .panel_bd8c76, .theme-light .container_debb33 {
+    background: transparent;
+}
+
+.overflow__87fe8 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+	font-size:12px !important;
+}
+
+.content__01e65 {
+	top:0px;
+    min-width: 0;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
+    position: relative;
+}
+
+.streamQualityIndicator__1fe46 {
+    width: 0px;
+}
+
+/*friends menu*/
+.peopleColumn__0c784 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    overflow: hidden;
+	margin:16px;
+	left:4px;
+	padding:4px;
+	background:
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-topleft.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-topright.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-bottomright.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-bottomleft.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-left.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-right.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-top.png),
+	url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-bottom.png);
+	background-repeat:
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	no-repeat,
+	repeat-y,
+	repeat-y,
+	repeat-x,
+	repeat-x;
+	background-position:
+	top left,
+	top right,
+	bottom right,
+	bottom left,
+	left,
+	right,
+	top,
+	bottom;
+	background-size:
+	auto,
+	auto,
+	auto,
+	auto,
+	4px 100%,
+	4px 100%,
+	100% 4px,
+	100% 4px;
+	background-color:rgba(255,255,255,1);
+}
+
+.searchBar__310d8 {
+	border-radius:0px;
+	border:1px solid rgba(131,150,195,1);
+    margin: 7px 0px 7px 7px;
+    flex: none;
+    background: rgba(255,255,255,1);
+	width:calc(100% - 14px);
+	position:relative;
+	order:1;
+	height:21px;
+}
+
+.inner__999f6 {
+    box-sizing: border-box;
+    position: relative;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1px;
+    min-width: 0;
+    align-items: center;
+	height:21px;
+	top:-7px;
+	font-size:11px;
+	line-height:11px;
+}
+
+.medium__5b9a9 .input__48d49, .medium__5b9a9 .tag__3ba94 {
+	font-size:11px;
+	line-height:11px;
+    height: 21px;
+    padding: 0 0px;
+}
+
+.medium__5b9a9 .iconContainer__4d295 {
+    width: 16px;
+    height: 16px;
+	content:url(https://leafinguh.github.io/msn7-disc/raw/topbar/search.png);
+}
+
+.peopleListItem_dab480 {
+	max-height:48px;
+    display: flex;
+    flex-direction: column;
+	box-shadow:none;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 14px;
+    overflow: hidden;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-top: 0px solid var(--background-modifier-accent);
+}
+
+.peopleListItem_dab480:hover {
+	background:rgb(242,245,251);
+	border-radius:1px;
+	border:1px solid rgb(79,107,160);
+    margin-left: 30px;
+    margin-right: 20px;
+	padding:0;
+	left:-1px;
+	position:relative;
+	width:calc(100% - 48px)
+}
+
+.title_c42cad {
+    margin: 16px 0px 0px 30px;
+    color: rgb(0,0,117);
+}
+
+.itemCard_b64118 {
+    border: 0px;
+}
+
+.container_bd15da .tabBody_a90ea8 {
+    background: var(--bg-overlay-chat,var(--background-primary));
+	background-image: url(https://leafinguh.github.io/msn7-disc/final/chatwindow/bg_friends.png),linear-gradient(rgba(246,247,252,1),rgba(208,220,240,1), rgba(246,247,252,1));
+  background-repeat: no-repeat, repeat-y;
+  background-position: right 8px bottom 21px, top left, top left;
+  opacity:1	;
+}
+
+.nowPlayingColumn_b025fe{
+	--background-secondary: rgba(128,0,0,0);
+    background: var(--background-secondary);
+}
+.nowPlayingColumn_b025fe .container__3673d{
+	--background-secondary: rgba(128,0,0,0);
+    background: var(--background-secondary);
+}
+
+.scroller__7c25e {
+    padding: 0px;
+    height: calc(100% - 30px);
+    border-left: 0px solid var(--background-modifier-accent);
+	top:0px;
+	left:-8px;
+	margin:16px;
+	position:relative;
+	padding:4px;
+}
+
+.header_c56a27 {
+    font-family: var(--font-display);
+    margin: 16px 0px 0px 16px;
+	   color: rgb(0,0,117);
+    font-size:14px;
+}
+
+/* main chat window stuff */
+
+/*msgbox*/
+.themedBackground__3a4c0 {
+	width:100%;
+	height:100%;
+}
+.channelTextArea_c2094b {
+    margin-bottom: 16px;
+    background-color: var(--background-primary);
+}
+.scrollableContainer_ff917f  {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 50vh;
+    border-radius: 7px;
+    backface-visibility: hidden;
+    scrollbar-width: none;
+	border: 1px solid;
+	padding-top:23px;
+		padding-bottom:23px;
+	background-image:
+	url(https://leafinguh.github.io/msn7-disc/final/chatwindow/chatbar-top.png),
+	url(https://leafinguh.github.io/msn7-disc/final/chatwindow/chatbar-bottom.png);
+	background-repeat:repeat-x;
+	background-position:top,bottom;
+	border-color: rgba(78,107,160,1);
+	background-color:rgba(255,255,255,0);
+	opacity:0.7		;
+}
+
+.base__512ed .typingDots__0448d {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	top:-5px;
+}
+.typing__6fd1d {
+    overflow: visible;
+    margin-bottom: 16px;
+}
+
+.attachButton__56f98[aria-label="Upload a file or send invites"]{
+  content: url(https://leafinguh.github.io/msn7-disc/final/chatwindow/photo.png);
+  width:16px;
+  height:16px;
+  border-radius:0px;
+border:0px solid;
+  margin-left:00%;
+  margin-right:-00%;
+   margin-top:0px;
+   margin-bottom:0px;
+  padding:0;
+  top:-20px;
+  left:0px;
+  position:relative;
+}
+
+.button__581d0[aria-label="Open GIF picker"] {
+    content: url(https://numoder.github.io/dsn10-theme/assets/typing-form/gif.png);
+			left:-8px;	
+  border-radius:0px;
+border:0px solid;
+    width: 16px;
+	top:0px;
+
+}
+
+.button__581d0[aria-label="Open sticker picker"] {
+    content: url(https://numoder.github.io/dsn10-theme/assets/typing-form/sticker.png);
+  border-radius:0px;
+border:0px solid;
+			position:relative;
+			left:-8px;
+    width: 16px;
+
+}
+
+.emojiButton__176c8 {
+    content: url(https://leafinguh.github.io/msn7-disc/final/chatwindow/emoji.png);
+		left:-8px;
+		width: 16px;
+		height: 16px;
+padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+	  border-radius:0px;
+border:0px solid;
+}
+
+.emojiButton__176c8:hover {
+    content: url(https://leafinguh.github.io/msn7-disc/final/chatwindow/emojiwink.png);
+    height: 16px;
+    width: 16px;
+}
+
+.button__581d0[aria-label="Send a gift"] {
+    content: url(https://leafinguh.github.io/msn7-disc/final/chatwindow/gift.png);
+    margin: 7px;
+			left:-8px;
+	    width: 18px;
+		height:17px;
+	top:7px;
+	  border-radius:0px;
+border:0px solid;
+}
+
+.buttons__7ecff {
+	position:relative;
+	top:-34px;
+}
+
+/* dm sidebar */
+.searchResultsWrap__2e184 {
+    width: 418px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--background-secondary);
+	height:calc(100% - 37px);
+	top:37px;
+}
+
+/* dm sidebar */
+.profilePanel_e2cafe {
+    position: relative;
+    width: 340px;
+    height: calc(100% - 37px);
+    top: 37px;
+}
+
+/* server/group sidebar */
+
+.membersWrap__5ca6b {
+    min-width: 240px;
+    display: flex;
+    position: relative;
+    max-height: 100%;
+    top: 37px;
+    height: calc(100% - 37px);
+}
+.members__573eb {
+    background-color: rgb(255,255,255);
+	background-image: url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-left.png);
+	background-repeat: repeat-y;
+}
+
+.membersGroup_cad095 {
+    padding: 16px 8px 0 16px;
+    height: 40px;
+	color:rgb(0,0,117);
+} 
+.member_aa4760 {
+    background: white;
+}
+
+/* lol user profile */
+.userPopoutOuter__3884e, .userProfileModalOuter_a65559{
+	border:1px solid rgb(133,150,202);
+	border-radius:6px;
+}
+
+
+.userProfileInnerThemedNonPremium_ed9022 {
+    background: linear-gradient(to bottom, 
+								rgb(192,208,240),
+								rgb(192,208,240) 60px,
+								rgb(238,242,245) 82px,
+								rgb(226,234,243));
+}
+
+
+.focusLock__28507 .root_ba16f0 div .userProfileModalOuter_a65559 .userProfileInnerThemedNonPremium_ed9022 {
+    background: linear-gradient(to bottom, 
+								rgb(192,208,240),
+								rgb(192,208,240) 106px,
+								rgb(238,242,245) 149px,
+								rgb(226,234,243));
+
+}
+
+.userPanelInnerThemed_c2aed9 .none_ff9f86.scrollerBase__65223 {
+    background: linear-gradient(to bottom, 
+								rgb(192,208,240),
+								rgb(192,208,240) 120px,
+								rgb(238,242,245) 164px,
+								rgb(226,234,243));
+	border-left:1px solid rgb(133,150,202);
+} 
+
+.banner__6d414 {
+}
+
+.scroller_f9a667 {
+    flex: 0 1 auto;
+    min-height: 0;
+    padding: 0;
+	width:calc(100% + 10px);
+}
+.section__62b44 {
+    padding-top: 12px;
+	padding-left:8px;
+	padding-right:8px;
+}
+.section__62b44.section__8633a.lastSection__62986 {
+	    background: linear-gradient(rgb(192,208,240),
+								rgb(192,208,240) 0%,
+								rgb(236,241,247) 100%);
+								height:14px;
+}
+
+.section__62b44.section__8633a.lastSection__62986 .inputWrapper_ecb776.messageInputContainer_a93946  {
+	    background: white;
+		border:1px solid black;
+		border-radius:0px;
+		height:18px;
+		top:-3px;
+		position:relative;
+}
+
+.section__62b44.section__8633a.lastSection__62986 .inputWrapper_ecb776.messageInputContainer_a93946 input.inputDefault__22335.input_f27786.messageInput_c423ff.input__2c88a  {
+		height:18px;
+		font-size:11px;
+		top:-2px;
+		position:relative;
+}
+
+
+.overlayBackground__2666e, .userPopoutOverlayBackground_bf6444 {
+    margin: 2px 1px 0px;
+    max-height: calc(100vh - 128px - var(--custom-user-popout-outside-components-height));
+	background-color:transparent;
+}
+
+
+
+.collapseBtn__49a85 {
+	border-image: url(https://leafinguh.github.io/msn7-disc/final/button/unselect.png);
+    border-image-slice: 9 fill;
+    border-image-width: 5px;
+	padding:0px 0px 0px 8px;
+
+	height:32px;
+
+	font-size:14px;	
+	border-radius:0px;
+	margin:0px;
+}
+
+.mutualGuildsList__5e9f3, .mutualFriendsList__02caf {
+	width:calc(100% - 32px);
+		left:16px;
+		background-color:white;
+	
+    margin-bottom:0px;
+		position:relative;
+}
+
+.connectionList_b1e9da {
+    margin-bottom: 12px;
+    margin-right: 0px;
+	border:1px solid black;
+}
+
+.lookFilled__950dd.colorGreen__75c93 {
+    color: black;
+    background-color: var(--button-positive-background);
+		border-image: url(https://leafinguh.github.io/msn7-disc/final/button/unselect.png);
+    border-image-slice: 9 fill;
+    border-image-width: 5px;
+	padding:0px 8px 0px 8px;
+	margin-left:0px;
+	align-items:center;
+}
+
+div [aria-label="Text (Active Threads) icon"] {
+    width: 16px;
+    height: 16px;
+	content:url("https://leafinguh.github.io/msn7-disc/final/othersidebar/textchannel.png")
+}
+div [aria-label="Text icon"] {
+    width: 16px;
+    height: 16px;
+	content:url("https://leafinguh.github.io/msn7-disc/final/othersidebar/textchannel.png")
+}
+div [aria-label="Text (Limited) icon"] {
+    width: 16px;
+    height: 16px;
+	content:url("https://leafinguh.github.io/msn7-disc/final/othersidebar/lockedchannel.png")
+}
+
+div [aria-label="Rules icon"] {
+    width: 16px;
+    height: 16px;
+	content:url("https://leafinguh.github.io/msn7-disc/final/othersidebar/rules.png")
+}
+
+div [aria-label="Rules (Limited) icon"] {
+    width: 16px;
+    height: 16px;
+	content:url("https://leafinguh.github.io/msn7-disc/final/othersidebar/rules.png")
+}
+
+div [aria-label="Text (Age-Restricted) icon"] {
+    width: 16px;
+    height: 16px;
+	content:url("https://leafinguh.github.io/msn7-disc/final/othersidebar/warningchannel.png")
+}
+
+.iconVisibility__2ecfa.wrapper__612a5.typeThread__5fb37 {
+	top:-16px;
+
+}
+
+
+
+
+
+.link_ddbb36 {
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: var(--radius-xs);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.spine__88e6d {
+    color: transparent;
+	border-bottom:1px solid rgb(156, 152, 165);
+	border-left:0px solid black;
+	border-style: dotted;
+	height:8px;
+	position:relative;
+	left:20px;
+	top:1px;
+}
+.spine__88e6d[style="transform: rotateX(180deg) translateY(-9px);"] {
+    color: transparent;
+	border-bottom:0px;
+	top:-2px;
+	left:16px;
+}
+.spineBorder__52981 {
+	background: transparent;
+	border-left:1px solid rgb(156, 152, 165);
+	border-style:dotted;
+	height:calc(100% - 28px);
+	top:-2px;
+	left:20px;
+}
+
+.scroller__1f498 {
+	background: url(https://leafinguh.github.io/msn7-disc/final/serversidebar/sideborderhack-right.png);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+.chatContent_f087cb {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    min-height: 0;
+    flex: 1 1 auto;
+
+    background: var(--bg-overlay-chat,var(--background-primary));
+		  background-image: url(https://leafinguh.github.io/msn7-disc/final/chatwindow/bg.png),linear-gradient(rgba(208, 222, 244,0.75), rgba(246,247,252,0.75),rgba(208,222,244,0.75));
+  background-repeat: no-repeat, repeat-y;
+  background-position: right bottom, top left, top left;
+  opacity:1	;
+}
+
+.newMessagesBar__8b272 {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: relative;
+    font-size: 8px;
+    line-height: 8px;
+	font-family: Tahoma, "Trebuchet MS", sans-serif;
+    font-weight: 1;
+    color: black;
+	background-color: rgb(255,255,225);
+    height: 16px;
+	top:38px;
+	left:8px;
+	width:calc(100% - 16px);
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 6px;
+	border: 1px solid rgb(0,0,0);
+    pointer-events: auto;
+    box-shadow: 0 0px 0px hsl(var(--black-500-hsl)/.24);
+    -webkit-app-region: no-drag;
+	opacity:1;
+}
+
+.messagesWrapper_add28b {
+    position: relative;
+    /* display: flex; */
+    flex: 1 1 auto;
+    min-height: 0;
+    min-width: 0;
+    z-index: 0;
+}
+.jumpToPresentBar__69174 {
+    bottom: 0;
+	background-color: rgb(255,255,225);
+     border-radius: 6px;
+	border: 1px solid rgb(0,0,0);
+	opacity:1;
+    padding-bottom: 8px;
+	max-height:20px;
+	min-height:20px;
+	position:absolute;
+}
+.barButtonMain__984b4 {
+    flex: 1 1 auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    position: relative;
+	color: black;
+}
+.barButtonAlt_e800ef.barButtonBase__5e4cf {
+    flex: 1 1 auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+	color: black;
+	justify-content:flex-end;
+}
